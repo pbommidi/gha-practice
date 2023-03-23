@@ -1,0 +1,10 @@
+name: First Workflow
+on: deployment_loadtest
+jobs:
+  firstjob:
+    run: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hello world"
+      - name: Print  goodbye
+        run: echo "done bye"
