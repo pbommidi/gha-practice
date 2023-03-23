@@ -1,8 +1,8 @@
 name: First Workflow
-on: deployment_loadtest
+on: deployment_status
 jobs:
   firstjob:
-    run: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Print greeting
         run: echo "Hello world"
